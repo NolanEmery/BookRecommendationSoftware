@@ -9,7 +9,7 @@ public class SetupFiles {
 
     public static void setupFiles() {
         try {
-            file = new File("./src/output.txt");
+            file = new File("./output.txt");
             fileWriter = new FileWriter(file);
         } catch (Exception e) {
             System.out.println("Error");
